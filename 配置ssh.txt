@@ -1,0 +1,6 @@
+ssh-keygen -t rsa -C "***@**.com"
+cd ~/ .ssh 
+cat id_rsa.pub
+复制到github
+检查是否成功：
+ssh -T git@github.com
